@@ -1,0 +1,9 @@
+{
+  "name": "typeorm-new",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^2.2.1"
+  }
+}

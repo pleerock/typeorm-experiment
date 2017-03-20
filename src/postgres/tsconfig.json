@@ -1,0 +1,25 @@
+{
+    "version": "2.1.1",
+    "compilerOptions": {
+        "lib": ["es5", "es6"],
+        "outDir": "../../build/compiled/postgres",
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "declaration": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "stripInternal": true,
+        "pretty": true,
+        "strictNullChecks": true,
+        "rootDirs": [
+            "../core",
+            "../common-rdbms",
+            "."
+        ]
+    }
+}
